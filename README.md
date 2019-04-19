@@ -11,17 +11,19 @@ Java Client-Server application which transfer objects of clients to server and a
 To launch firstly class Main.java in Server part. Than to launch class Main.java in Client part
 ```
 
-###Database describtion 
-Connection is established through JDBC. Postgre database initialized with some sample user. The model of entity in DB:
+### Database describtion 
+Connection is established through JDBC. Postgre database initialized with some sample user.
+## The model of entity in DB:
 | ID | NAME | BILL |
 | -----------| ------ | ------ |
+| 1 | Mike | 15 | 
 
 
-###Usage example
+### Usage example
 Interaction between server and client is conducted through the console
 
 ```sh
-##Client side:
+Client side:
 Insert ID:
 1
 Insert NAME:
@@ -31,11 +33,12 @@ Insert BILL:
 ```
 
 ```sh
-##Server side:
+Server side:
 Got object: |Id - 1|  |Name - Mike|  |Bill - 15|
 ```
 
-##Client side:
+```sh
+Client side:
 -------INFO from Server-------
 Server got instance
 ```
