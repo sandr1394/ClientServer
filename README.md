@@ -13,7 +13,7 @@ Firstly to launch class Main.java in Server part. Than to launch class Main.java
 
 ### Database description:
 Connection is established through JDBC. Postgre database initialized with some sample user
-The model of entity in DB:
+#### The model of entity in DB:
 | ID | NAME | BILL |
 | -----------| ------ | ------ |
 | 1 | Mike | 15 | 
@@ -21,6 +21,21 @@ The model of entity in DB:
 
 ### Usage example:
 Interaction between server and client is conducted through the console:
+
+Server side:
+```sh
+-------INFO-------
+Server is deployed.
+
+-------INFO-------
+Connection with DataBase is established.
+
+-------INFO-------
+Waiting for client connection...
+
+-------INFO-------
+Client committed connection
+```
 
 Client side:
 ```sh
